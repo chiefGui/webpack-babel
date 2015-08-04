@@ -25,6 +25,10 @@ tool or anything else integrated—this is by your own.
 
 _`/application/main.js` is your entry point. Use it!_
 
+### Building for production
+
+`webpack`
+
 ### License
 
 DWYW (Do whatever you want).
