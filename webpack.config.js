@@ -22,6 +22,13 @@ module.exports = {
       ],
 
       loader: 'babel-loader'
+    }, {
+      test: /\.css$/,
+      loader: 'style-loader!css-loader!autoprefixer-loader?browsers=last 2 versions'
+    }, {
+      test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+
+      loader: 'url-loader'
     }]
   },
 
